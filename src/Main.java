@@ -1,6 +1,6 @@
 import dev.lpa.util.QueryList;
-import model.Student;
-import model.StudentComparator;
+import dev.lpa.model.Student;
+import dev.lpa.model.StudentComparator;
 
 public class Main {
 

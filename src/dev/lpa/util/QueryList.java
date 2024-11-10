@@ -1,6 +1,6 @@
 package dev.lpa.util;
 
-import model.Student;
+import dev.lpa.model.Student;
 
 import java.util.ArrayList;
 

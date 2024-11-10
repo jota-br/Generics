@@ -1,4 +1,4 @@
-package model;
+package dev.lpa.model;
 
 import dev.lpa.util.QueryItem;
 
@@ -7,7 +7,7 @@ import java.util.Random;
 public class Student implements QueryItem, Comparable<Student> {
 
     private static int CURRENT_ID = 0;
-    private int id;
+    private final int id;
     private String name;
     private String course;
     private double completedPercent;
